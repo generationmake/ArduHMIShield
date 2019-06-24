@@ -6,11 +6,60 @@
 <h1>ArduHMI</h1>
 <h3>Graphic HMI for Arduino</h3>
 <img src="images/arduhmi_intro.jpg">
-<p>ArduHMI with EA DOGM162 on a Arduino Uno.</p>
+<p>ArduHMI with EA DOGM128-6 on an Arduino Uno.</p>
 <h2>Introduction</h2>
-<p>ArduHMI is a HMI with a graphic display and buttons for a Arduino Uno and compatible board.<p>
+<p>ArduHMI is a HMI with a graphic display and buttons for an Arduino Uno and compatible boards.<p>
 
 <h2>Hardware</h2>
+<h3>compatibility</h3>
+<p>The hardware is compatible with the following displays from EA (<a href="https://www.lcd-module.com/produkte/dog.html">https://www.lcd-module.com/produkte/dog.html</a>):</p>
+<ul>
+<li><b>EA DOGS102-6</b> 102x64 - 1.7&quot;</li>
+<li><b>EA DOGM132-5</b> 132x32 - 2.1&quot;</li>
+<li><b>EA DOGM128-6</b> 128x64 - 2.3&quot;</li>
+</ul>
+<h3>circuit</h3>
+<p>There exist Arduinos with 3.3V and 5V. But these displays only accept 3.3V voltage levels. So a voltage regulator (LT1117) for 3.3V is implemented on the ArduHMI board and all signals to the display are routed over a 74LVX245D buffer which acts as a level shifter. Because of that ArduHMI can be used with any Arduino. The SPI signals to the display can be connected to different pins of the Arduino via 0 ohm resistors to enable the use of software or hardware SPI.</p>
+<br/>
+<p>The backlight is connected to pin 10 and can be controlled via PWM.</p>
+<br/>
+<p>All switches are connected via resitor deviders to one analog in (A0) to reduce pin usage.</p>
+
+<h3>Arduino pin usage</h3>
+<table border>
+<tr><th>Arduino pin</th><th>direction on Arduino</th><th>usage</th></tr>
+<tr><td>0</td><td>-</td><td>not used</td></tr>
+<tr><td>1</td><td>-</td><td>not used</td></tr>
+<tr><td>2</td><td>-</td><td>not used</td></tr>
+<tr><td>3</td><td>-</td><td>not used</td></tr>
+<tr><td>4</td><td>-</td><td>not used</td></tr>
+<tr><td>5</td><td>output</td><td><b>option 2:</b> serial data to display</td></tr>
+<tr><td>6</td><td>output</td><td>chip select to display</td></tr>
+<tr><td>7</td><td>output</td><td><b>option 2:</b> serial clock to display</td></tr>
+<tr><td>8</td><td>output</td><td>signal A0 to display</td></tr>
+<tr><td>9</td><td>output</td><td>reset to display</td></tr>
+<tr><td>10</td><td>output</td><td><b>PWM</b> backlight control</td></tr>
+<tr><td>11</td><td>output</td><td><b>option 1:</b> serial data to display</td></tr>
+<tr><td>12</td><td>output</td><td><b>option:</b> chip select to display</td></tr>
+<tr><td>13</td><td>output</td><td><b>option 1:</b> serial clock to display</td></tr>
+<tr><td>A0</td><td>input</td><td>resistor devider of switches</td></tr>
+<tr><td>A1</td><td>-</td><td>not used</td></tr>
+<tr><td>A2</td><td>-</td><td>not used</td></tr>
+<tr><td>A3</td><td>-</td><td>not used</td></tr>
+<tr><td>A4</td><td>-</td><td>not used</td></tr>
+<tr><td>A5</td><td>-</td><td>not used</td></tr>
+<tr><td>AREF</td><td>-</td><td>not used</td></tr>
+<tr><td>SCL</td><td>-</td><td>not used</td></tr>
+<tr><td>SDA</td><td>-</td><td>not used</td></tr>
+<tr><td>RESET</td><td>-</td><td>connected to SW6</td></tr>
+<tr><td>IOREF</td><td>-</td><td>reference voltage for pull up (U4 and U5)</td></tr>
+<tr><td>VIN</td><td>-</td><td>not used</td></tr>
+<tr><td>3.3V</td><td>-</td><td>not used</td></tr>
+<tr><td>5V</td><td>-</td><td>input voltage for voltage regulator (U1)</td></tr>
+<tr><td>GND</td><td>-</td><td>GND</td></tr>
+</table>
+
+<h3>download</h3>
 <p><a href="http://arduhmi.generationmake.de/arduhmi_1.1.zip">arduhmi_1.1.zip</a><br/>
 The hardware is released under CERN OHL v1.2<br/></p>
 
@@ -19,7 +68,7 @@ The hardware is released under CERN OHL v1.2<br/></p>
 The software is released under GPL v3</p>
 
 <p>If you have any questions contact me via email at bernhard@generationmake.de, make an issue at github or send me a message at twitter (<a href="https://twitter.com/generation_make">https://twitter.com/generation_make</a>).</p>
-<p>Last update: 17. mar. 2019</p>
+<p>Last update: 24. june 2019</p>
 </body>
 </html>
 
