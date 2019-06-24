@@ -8,7 +8,7 @@ version 1.0 - 2019-02-20
 
 version 1.1 - 2019-06-24
 * changed switches to SMD version to avoid short circuit with USB connector of Arduino Uno
-* changed level shifter to 74LVX245D because of better availability and easier soldering
+* changed level shifter to 74LHC245D because of better availability and easier soldering
 
 
 

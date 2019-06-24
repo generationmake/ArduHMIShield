@@ -1,5 +1,5 @@
 Drill report for /home/bernhard/projects/ArduHMI/hardware/ArduHMIShield/kicad_source/ArduHMIShield.kicad_pcb
-Created on Mo 08 Okt 2018 02:40:25 CEST
+Created on Mo 24 Jun 2019 16:55:24 CEST
 
 Copper Layer Stackup:
     =============================================================
@@ -10,12 +10,11 @@ Copper Layer Stackup:
 Drill file 'ArduHMIShield-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0,40mm  0,016"  (27 holes)
+    T1  0,40mm  0,016"  (25 holes)
     T2  0,60mm  0,024"  (68 holes)
     T3  1,00mm  0,039"  (32 holes)
-    T4  1,00mm  0,039"  (24 holes)
 
-    Total plated holes count 151
+    Total plated holes count 125
 
 
 Drill file 'ArduHMIShield-NPTH.drl' contains
