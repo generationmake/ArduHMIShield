@@ -30,7 +30,7 @@ ARDU_RESET
 Text Label 9950 2250 0    60   ~ 0
 DISPLAY_BL
 $Comp
-L ArduHMIShield-rescue:GND #PWR026
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR026
 U 1 1 5B0B4087
 P 10300 1650
 F 0 "#PWR026" H 10300 1400 50  0001 C CNN
@@ -41,7 +41,7 @@ F 3 "" H 10300 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR028
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR028
 U 1 1 5B0B41D5
 P 10400 5800
 F 0 "#PWR028" H 10400 5550 50  0001 C CNN
@@ -54,7 +54,7 @@ $EndComp
 NoConn ~ 10500 4650
 NoConn ~ 10500 4950
 $Comp
-L ArduHMIShield-rescue:+5V #PWR025
+L ArduHMIShield-rescue:+5V-ArduHMIShield-rescue #PWR025
 U 1 1 5B0B43B5
 P 10250 4500
 F 0 "#PWR025" H 10250 4350 50  0001 C CNN
@@ -75,7 +75,7 @@ KEYPAD_A0
 Text Notes 500  650  0    47   ~ 0
 Copyright generationmake 2019\nsee full project documentation at http://arduhmi.generationmake.de
 $Comp
-L ArduHMIShield-rescue:VIO #PWR023
+L ArduHMIShield-rescue:VIO-ArduHMIShield-rescue #PWR023
 U 1 1 5B4C9C6B
 P 10100 4800
 F 0 "#PWR023" H 10100 4650 50  0001 C CNN
@@ -86,7 +86,7 @@ F 3 "" H 10100 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:VIN #PWR027
+L ArduHMIShield-rescue:VIN-ArduHMIShield-rescue #PWR027
 U 1 1 5B4CB5AB
 P 10350 4250
 F 0 "#PWR027" H 10350 4100 50  0001 C CNN
@@ -97,7 +97,7 @@ F 3 "" H 10350 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:C_0603 C7
+L ArduHMIShield-rescue:C_0603-ArduHMIShield-rescue C7
 U 1 1 5B6395F1
 P 8100 3200
 F 0 "C7" H 8110 3270 50  0000 L CNN
@@ -108,7 +108,7 @@ F 3 "" H 8100 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:C_0603 C8
+L ArduHMIShield-rescue:C_0603-ArduHMIShield-rescue C8
 U 1 1 5B63982A
 P 8100 3500
 F 0 "C8" H 8110 3570 50  0000 L CNN
@@ -119,7 +119,7 @@ F 3 "" H 8100 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR018
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR018
 U 1 1 5B639A53
 P 7650 4350
 F 0 "#PWR018" H 7650 4100 50  0001 C CNN
@@ -136,7 +136,7 @@ NoConn ~ 10500 3350
 NoConn ~ 10500 3950
 NoConn ~ 10500 3850
 $Comp
-L ArduHMIShield-rescue:R_1206 R5
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R5
 U 1 1 5B63A92B
 P 2100 7000
 F 0 "R5" H 2130 7020 50  0000 L CNN
@@ -147,7 +147,7 @@ F 3 "" H 2100 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R4
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R4
 U 1 1 5B63AAA2
 P 2100 6500
 F 0 "R4" H 2130 6520 50  0000 L CNN
@@ -158,7 +158,7 @@ F 3 "" H 2100 6500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R3
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R3
 U 1 1 5B63AB87
 P 2100 6000
 F 0 "R3" H 2130 6020 50  0000 L CNN
@@ -169,7 +169,7 @@ F 3 "" H 2100 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R2
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R2
 U 1 1 5B63AC92
 P 2100 5500
 F 0 "R2" H 2130 5520 50  0000 L CNN
@@ -180,7 +180,7 @@ F 3 "" H 2100 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R1
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R1
 U 1 1 5B63AD92
 P 2100 5000
 F 0 "R1" H 2130 5020 50  0000 L CNN
@@ -191,7 +191,7 @@ F 3 "" H 2100 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:VIO #PWR07
+L ArduHMIShield-rescue:VIO-ArduHMIShield-rescue #PWR07
 U 1 1 5B63AF24
 P 2100 4850
 F 0 "#PWR07" H 2100 4700 50  0001 C CNN
@@ -202,7 +202,7 @@ F 3 "" H 2100 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR01
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR01
 U 1 1 5B63B0A9
 P 650 5400
 F 0 "#PWR01" H 650 5150 50  0001 C CNN
@@ -213,7 +213,7 @@ F 3 "" H 650 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR02
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR02
 U 1 1 5B63B132
 P 650 5900
 F 0 "#PWR02" H 650 5650 50  0001 C CNN
@@ -224,7 +224,7 @@ F 3 "" H 650 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR03
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR03
 U 1 1 5B63B1DF
 P 650 6400
 F 0 "#PWR03" H 650 6150 50  0001 C CNN
@@ -235,7 +235,7 @@ F 3 "" H 650 6400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR04
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR04
 U 1 1 5B63B220
 P 650 6900
 F 0 "#PWR04" H 650 6650 50  0001 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 650 6900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR05
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR05
 U 1 1 5B63B261
 P 650 7400
 F 0 "#PWR05" H 650 7150 50  0001 C CNN
@@ -346,7 +346,7 @@ Wire Wire Line
 Text Label 1350 5200 0    60   ~ 0
 KEYPAD_A0
 $Comp
-L ArduHMIShield-rescue:R_1206 R7
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R7
 U 1 1 5B63C41E
 P 6750 4900
 F 0 "R7" H 6780 4920 50  0000 L CNN
@@ -357,7 +357,7 @@ F 3 "" H 6750 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R6
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R6
 U 1 1 5B63C5FD
 P 6450 4900
 F 0 "R6" H 6480 4920 50  0000 L CNN
@@ -368,7 +368,7 @@ F 3 "" H 6450 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:VIO #PWR017
+L ArduHMIShield-rescue:VIO-ArduHMIShield-rescue #PWR017
 U 1 1 5B63C75B
 P 7450 4900
 F 0 "#PWR017" H 7450 4750 50  0001 C CNN
@@ -379,7 +379,7 @@ F 3 "" H 7450 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:Q_NMOS_GSD Q1
+L ArduHMIShield-rescue:Q_NMOS_GSD-ArduHMIShield-rescue Q1
 U 1 1 5B63CAC6
 P 7150 5300
 F 0 "Q1" H 7450 5350 50  0000 R CNN
@@ -390,7 +390,7 @@ F 3 "" H 7150 5300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R9
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R9
 U 1 1 5B63CC9C
 P 7450 5100
 F 0 "R9" H 7480 5120 50  0000 L CNN
@@ -401,7 +401,7 @@ F 3 "" H 7450 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:+5V #PWR016
+L ArduHMIShield-rescue:+5V-ArduHMIShield-rescue #PWR016
 U 1 1 5B63CEC4
 P 7150 4600
 F 0 "#PWR016" H 7150 4450 50  0001 C CNN
@@ -412,7 +412,7 @@ F 3 "" H 7150 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR015
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR015
 U 1 1 5B63D119
 P 7050 5600
 F 0 "#PWR015" H 7050 5350 50  0001 C CNN
@@ -434,7 +434,7 @@ Wire Wire Line
 Text Label 7600 5300 0    60   ~ 0
 DISPLAY_BL
 $Comp
-L ArduHMIShield-rescue:GND #PWR014
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR014
 U 1 1 5B63E57C
 P 8050 6100
 F 0 "#PWR014" H 8050 5850 50  0001 C CNN
@@ -515,7 +515,7 @@ F 3 "" H 4900 3250 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ArduHMIShield-rescue:C_0603 C9
+L ArduHMIShield-rescue:C_0603-ArduHMIShield-rescue C9
 U 1 1 5BB54AD8
 P 8100 3900
 F 0 "C9" H 8110 3970 50  0000 L CNN
@@ -526,7 +526,7 @@ F 3 "" H 8100 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R8
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R8
 U 1 1 5BB5541F
 P 7050 4900
 F 0 "R8" H 7080 4920 50  0000 L CNN
@@ -572,7 +572,7 @@ Connection ~ 5000 3250
 Wire Wire Line
 	5000 3250 4900 3250
 $Comp
-L ArduHMIShield-rescue:C_0603 C6
+L ArduHMIShield-rescue:C_0603-ArduHMIShield-rescue C6
 U 1 1 5BBADF9D
 P 4700 4450
 F 0 "C6" H 4710 4520 50  0000 L CNN
@@ -583,7 +583,7 @@ F 3 "" H 4700 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:C_0603 C4
+L ArduHMIShield-rescue:C_0603-ArduHMIShield-rescue C4
 U 1 1 5BBAE187
 P 4400 4450
 F 0 "C4" H 4410 4520 50  0000 L CNN
@@ -594,7 +594,7 @@ F 3 "" H 4400 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:C_0603 C3
+L ArduHMIShield-rescue:C_0603-ArduHMIShield-rescue C3
 U 1 1 5BBAE1DD
 P 4100 4450
 F 0 "C3" H 4110 4520 50  0000 L CNN
@@ -605,7 +605,7 @@ F 3 "" H 4100 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:C_0603 C2
+L ArduHMIShield-rescue:C_0603-ArduHMIShield-rescue C2
 U 1 1 5BBAE22D
 P 3800 4450
 F 0 "C2" H 3810 4520 50  0000 L CNN
@@ -616,7 +616,7 @@ F 3 "" H 3800 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:C_0603 C1
+L ArduHMIShield-rescue:C_0603-ArduHMIShield-rescue C1
 U 1 1 5BBAE27F
 P 3500 4450
 F 0 "C1" H 3510 4520 50  0000 L CNN
@@ -627,7 +627,7 @@ F 3 "" H 3500 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:C_0603 C5
+L ArduHMIShield-rescue:C_0603-ArduHMIShield-rescue C5
 U 1 1 5BBAE437
 P 4400 3500
 F 0 "C5" H 4410 3570 50  0000 L CNN
@@ -638,7 +638,7 @@ F 3 "" H 4400 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR06
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR06
 U 1 1 5BBAE4F7
 P 3500 4600
 F 0 "#PWR06" H 3500 4350 50  0001 C CNN
@@ -649,7 +649,7 @@ F 3 "" H 3500 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR08
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR08
 U 1 1 5BBAE5BC
 P 3800 4600
 F 0 "#PWR08" H 3800 4350 50  0001 C CNN
@@ -660,7 +660,7 @@ F 3 "" H 3800 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR09
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR09
 U 1 1 5BBAE605
 P 4100 4600
 F 0 "#PWR09" H 4100 4350 50  0001 C CNN
@@ -671,7 +671,7 @@ F 3 "" H 4100 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR010
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR010
 U 1 1 5BBAE64E
 P 4400 4600
 F 0 "#PWR010" H 4400 4350 50  0001 C CNN
@@ -682,7 +682,7 @@ F 3 "" H 4400 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR012
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR012
 U 1 1 5BBAE697
 P 4700 4600
 F 0 "#PWR012" H 4700 4350 50  0001 C CNN
@@ -693,7 +693,7 @@ F 3 "" H 4700 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR011
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR011
 U 1 1 5BBAE71E
 P 4400 3650
 F 0 "#PWR011" H 4400 3400 50  0001 C CNN
@@ -836,7 +836,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 4050 8100 4050
 $Comp
-L ArduHMIShield-rescue:GND #PWR021
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR021
 U 1 1 5BCEEEB0
 P 3600 2150
 F 0 "#PWR021" H 3600 1900 50  0001 C CNN
@@ -847,7 +847,7 @@ F 3 "" H 3600 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:+5V #PWR020
+L ArduHMIShield-rescue:+5V-ArduHMIShield-rescue #PWR020
 U 1 1 5BCEEED4
 P 3100 2400
 F 0 "#PWR020" H 3100 2250 50  0001 C CNN
@@ -970,7 +970,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 1050 4050 1050
 $Comp
-L ArduHMIShield-rescue:GND #PWR029
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR029
 U 1 1 5BD40D1A
 P 7550 2150
 F 0 "#PWR029" H 7550 1900 50  0001 C CNN
@@ -981,7 +981,7 @@ F 3 "" H 7550 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:+5V #PWR024
+L ArduHMIShield-rescue:+5V-ArduHMIShield-rescue #PWR024
 U 1 1 5BD40D20
 P 7050 2400
 F 0 "#PWR024" H 7050 2250 50  0001 C CNN
@@ -1115,7 +1115,7 @@ F 3 "" H 1700 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:C_0603 C10
+L ArduHMIShield-rescue:C_0603-ArduHMIShield-rescue C10
 U 1 1 5BB72CE9
 P 700 3650
 F 0 "C10" H 710 3720 50  0000 L CNN
@@ -1126,7 +1126,7 @@ F 3 "" H 700 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:C_0603 C11
+L ArduHMIShield-rescue:C_0603-ArduHMIShield-rescue C11
 U 1 1 5BB72DA3
 P 2600 3650
 F 0 "C11" H 2610 3720 50  0000 L CNN
@@ -1137,7 +1137,7 @@ F 3 "" H 2600 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR0101
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR0101
 U 1 1 5BB72E31
 P 2600 3800
 F 0 "#PWR0101" H 2600 3550 50  0001 C CNN
@@ -1148,7 +1148,7 @@ F 3 "" H 2600 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR0102
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR0102
 U 1 1 5BB72E7C
 P 700 3800
 F 0 "#PWR0102" H 700 3550 50  0001 C CNN
@@ -1170,7 +1170,7 @@ F 3 "" H 2600 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:+5V #PWR0104
+L ArduHMIShield-rescue:+5V-ArduHMIShield-rescue #PWR0104
 U 1 1 5BB731D2
 P 700 3450
 F 0 "#PWR0104" H 700 3300 50  0001 C CNN
@@ -1190,7 +1190,7 @@ Connection ~ 700  3500
 Wire Wire Line
 	700  3500 700  3450
 $Comp
-L ArduHMIShield-rescue:GND #PWR0105
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR0105
 U 1 1 5BB95788
 P 1050 3800
 F 0 "#PWR0105" H 1050 3550 50  0001 C CNN
@@ -1227,7 +1227,7 @@ BUTTON_LEFT
 Text Label 1350 7200 0    60   ~ 0
 BUTTON_SELECT
 $Comp
-L ArduHMIShield-rescue:GND #PWR0106
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR0106
 U 1 1 5BBDF9B4
 P 3250 6950
 F 0 "#PWR0106" H 3250 6700 50  0001 C CNN
@@ -1249,7 +1249,7 @@ F 3 "" H 4200 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:C_0603 C12
+L ArduHMIShield-rescue:C_0603-ArduHMIShield-rescue C12
 U 1 1 5BBDFAE2
 P 4200 5600
 F 0 "C12" H 4210 5670 50  0000 L CNN
@@ -1260,7 +1260,7 @@ F 3 "" H 4200 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR0108
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR0108
 U 1 1 5BBDFCD0
 P 4200 5800
 F 0 "#PWR0108" H 4200 5550 50  0001 C CNN
@@ -1312,7 +1312,7 @@ Text Label 2650 6500 0    60   ~ 0
 ARDU_SI
 NoConn ~ 10500 2950
 $Comp
-L ArduHMIShield-rescue:R_1206 R17
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R17
 U 1 1 5BD685C3
 P 9500 2850
 F 0 "R17" V 9450 2600 50  0000 L CNN
@@ -1323,7 +1323,7 @@ F 3 "" H 9500 2850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R16
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R16
 U 1 1 5BD6882F
 P 9500 2750
 F 0 "R16" V 9450 2500 50  0000 L CNN
@@ -1334,7 +1334,7 @@ F 3 "" H 9500 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R15
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R15
 U 1 1 5BD6888F
 P 9500 2650
 F 0 "R15" V 9450 2400 50  0000 L CNN
@@ -1359,7 +1359,7 @@ ARDU_CS
 Text Label 8550 2850 0    60   ~ 0
 ARDU_SI
 $Comp
-L ArduHMIShield-rescue:R_1206 R14
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R14
 U 1 1 5BE33620
 P 6150 7450
 F 0 "R14" V 6100 7200 50  0000 L CNN
@@ -1370,7 +1370,7 @@ F 3 "" H 6150 7450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R13
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R13
 U 1 1 5BE56B22
 P 6150 7350
 F 0 "R13" V 6100 7100 50  0000 L CNN
@@ -1381,7 +1381,7 @@ F 3 "" H 6150 7350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R12
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R12
 U 1 1 5BE68A65
 P 6150 7250
 F 0 "R12" V 6100 7000 50  0000 L CNN
@@ -1392,7 +1392,7 @@ F 3 "" H 6150 7250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R11
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R11
 U 1 1 5BE68A6D
 P 6150 7150
 F 0 "R11" V 6100 6900 50  0000 L CNN
@@ -1403,7 +1403,7 @@ F 3 "" H 6150 7150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R10
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R10
 U 1 1 5BE7B2CD
 P 6150 7050
 F 0 "R10" V 6100 6800 50  0000 L CNN
@@ -1434,7 +1434,7 @@ DIS_CLK
 Text Label 6400 7050 0    60   ~ 0
 DIS_SI
 $Comp
-L ArduHMIShield-rescue:R_1206 R20
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R20
 U 1 1 5BE8ECB6
 P 9500 2150
 F 0 "R20" V 9450 1900 50  0000 L CNN
@@ -1445,7 +1445,7 @@ F 3 "" H 9500 2150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R19
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R19
 U 1 1 5BE8ED42
 P 9500 2050
 F 0 "R19" V 9450 1800 50  0000 L CNN
@@ -1456,7 +1456,7 @@ F 3 "" H 9500 2050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R18
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R18
 U 1 1 5BE8EDB2
 P 9500 1950
 F 0 "R18" V 9450 1700 50  0000 L CNN
@@ -1572,7 +1572,7 @@ Connection ~ 2100 5700
 Wire Wire Line
 	2100 5700 2100 5900
 $Comp
-L ArduHMIShield-rescue:R_1206 R21
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R21
 U 1 1 5BEF46DB
 P 2900 3500
 F 0 "R21" H 2930 3520 50  0000 L CNN
@@ -1594,7 +1594,7 @@ F 3 "" V 3100 3650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ArduHMIShield-rescue:GND #PWR030
+L ArduHMIShield-rescue:GND-ArduHMIShield-rescue #PWR030
 U 1 1 5BEF4BB1
 P 3100 3800
 F 0 "#PWR030" H 3100 3550 50  0001 C CNN
@@ -1622,7 +1622,7 @@ U 1 1 5D124A7D
 P 1050 5200
 F 0 "SW1" H 1050 5537 60  0000 C CNN
 F 1 "TAST_VER" H 1050 5431 60  0000 C CNN
-F 2 "mechanical-switches:WE_430182050816" H 1900 5250 60  0001 C CNN
+F 2 "mechanical-switches:WE_430182080816" H 1900 5250 60  0001 C CNN
 F 3 "" H 1900 5250 60  0000 C CNN
 	1    1050 5200
 	1    0    0    -1  
@@ -1633,7 +1633,7 @@ U 1 1 5D124E3B
 P 1050 5700
 F 0 "SW2" H 1050 6037 60  0000 C CNN
 F 1 "TAST_VER" H 1050 5931 60  0000 C CNN
-F 2 "mechanical-switches:WE_430182050816" H 1900 5750 60  0001 C CNN
+F 2 "mechanical-switches:WE_430182080816" H 1900 5750 60  0001 C CNN
 F 3 "" H 1900 5750 60  0000 C CNN
 	1    1050 5700
 	1    0    0    -1  
@@ -1644,7 +1644,7 @@ U 1 1 5D124EC3
 P 1050 6200
 F 0 "SW3" H 1050 6537 60  0000 C CNN
 F 1 "TAST_VER" H 1050 6431 60  0000 C CNN
-F 2 "mechanical-switches:WE_430182050816" H 1900 6250 60  0001 C CNN
+F 2 "mechanical-switches:WE_430182080816" H 1900 6250 60  0001 C CNN
 F 3 "" H 1900 6250 60  0000 C CNN
 	1    1050 6200
 	1    0    0    -1  
@@ -1655,7 +1655,7 @@ U 1 1 5D124F55
 P 1050 6700
 F 0 "SW4" H 1050 7037 60  0000 C CNN
 F 1 "TAST_VER" H 1050 6931 60  0000 C CNN
-F 2 "mechanical-switches:WE_430182050816" H 1900 6750 60  0001 C CNN
+F 2 "mechanical-switches:WE_430182080816" H 1900 6750 60  0001 C CNN
 F 3 "" H 1900 6750 60  0000 C CNN
 	1    1050 6700
 	1    0    0    -1  
@@ -1666,7 +1666,7 @@ U 1 1 5D1250D0
 P 1050 7200
 F 0 "SW5" H 1050 7537 60  0000 C CNN
 F 1 "TAST_VER" H 1050 7431 60  0000 C CNN
-F 2 "mechanical-switches:WE_430182050816" H 1900 7250 60  0001 C CNN
+F 2 "mechanical-switches:WE_430182080816" H 1900 7250 60  0001 C CNN
 F 3 "" H 1900 7250 60  0000 C CNN
 	1    1050 7200
 	1    0    0    -1  
@@ -1758,13 +1758,13 @@ U 1 1 5D60D7FA
 P 10700 3200
 F 0 "CN1" H 10750 4950 60  0000 L CNN
 F 1 "ARDUINO_ISP" H 10600 600 60  0000 L CNN
-F 2 "MODULE_compute:ARDUINO_ISP" H 11250 4950 60  0001 C CNN
+F 2 "MODULE_compute:ARDUINO_ISP_TOP" H 11250 4950 60  0001 C CNN
 F 3 "" H 11350 4000 60  0000 C CNN
 	1    10700 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R23
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R23
 U 1 1 5D622E19
 P 9650 5500
 F 0 "R23" V 9600 5250 50  0000 L CNN
@@ -1775,7 +1775,7 @@ F 3 "" H 9650 5500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ArduHMIShield-rescue:R_1206 R22
+L ArduHMIShield-rescue:R_1206-ArduHMIShield-rescue R22
 U 1 1 5D62308D
 P 9650 5400
 F 0 "R22" V 9600 5150 50  0000 L CNN

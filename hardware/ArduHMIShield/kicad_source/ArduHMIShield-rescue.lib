@@ -1,0 +1,126 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +5V-ArduHMIShield-rescue
+#
+DEF +5V-ArduHMIShield-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V-ArduHMIShield-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# C_0603-ArduHMIShield-rescue
+#
+DEF C_0603-ArduHMIShield-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "C_0603-ArduHMIShield-rescue" 10 -80 50 H V L CNN
+F2 "capacitors:C_0603" 0 -150 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND-ArduHMIShield-rescue
+#
+DEF GND-ArduHMIShield-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-ArduHMIShield-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Q_NMOS_GSD-ArduHMIShield-rescue
+#
+DEF Q_NMOS_GSD-ArduHMIShield-rescue Q 0 0 Y N 1 F N
+F0 "Q" 300 50 50 H V R CNN
+F1 "Q_NMOS_GSD-ArduHMIShield-rescue" 650 -50 50 H V R CNN
+F2 "" 200 100 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+X G 1 -200 0 210 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1206-ArduHMIShield-rescue
+#
+DEF R_1206-ArduHMIShield-rescue R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "R_1206-ArduHMIShield-rescue" 30 -40 50 H V L CNN
+F2 "resistors:R_1206" 0 -150 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Resistor_*
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 40 40 1 1 P
+X ~ 2 0 -100 30 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# VIN-ArduHMIShield-rescue
+#
+DEF VIN-ArduHMIShield-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "VIN-ArduHMIShield-rescue" 0 150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VIN 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# VIO-ArduHMIShield-rescue
+#
+DEF VIO-ArduHMIShield-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "VIO-ArduHMIShield-rescue" 0 150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VIO 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
