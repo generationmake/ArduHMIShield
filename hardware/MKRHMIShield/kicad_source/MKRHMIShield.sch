@@ -52,174 +52,59 @@ $EndComp
 $Comp
 L MKRHMIShield-rescue:R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue R5
 U 1 1 5B63A92B
-P 2100 7000
-F 0 "R5" H 2130 7020 50  0000 L CNN
-F 1 "3k3" H 2130 6960 50  0000 L CNN
-F 2 "resistors:R_0603" H 2100 6850 50  0001 C CNN
-F 3 "" H 2100 7000 50  0000 C CNN
-	1    2100 7000
+P 850 6600
+F 0 "R5" H 880 6620 50  0000 L CNN
+F 1 "3k3" H 880 6560 50  0000 L CNN
+F 2 "resistors:R_0603" H 850 6450 50  0001 C CNN
+F 3 "" H 850 6600 50  0000 C CNN
+	1    850  6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L MKRHMIShield-rescue:R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue R4
 U 1 1 5B63AAA2
-P 2100 6500
-F 0 "R4" H 2130 6520 50  0000 L CNN
-F 1 "1k" H 2130 6460 50  0000 L CNN
-F 2 "resistors:R_0603" H 2100 6350 50  0001 C CNN
-F 3 "" H 2100 6500 50  0000 C CNN
-	1    2100 6500
+P 850 6100
+F 0 "R4" H 880 6120 50  0000 L CNN
+F 1 "1k" H 880 6060 50  0000 L CNN
+F 2 "resistors:R_0603" H 850 5950 50  0001 C CNN
+F 3 "" H 850 6100 50  0000 C CNN
+	1    850  6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L MKRHMIShield-rescue:R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue R3
 U 1 1 5B63AB87
-P 2100 6000
-F 0 "R3" H 2130 6020 50  0000 L CNN
-F 1 "620" H 2130 5960 50  0000 L CNN
-F 2 "resistors:R_0603" H 2100 5850 50  0001 C CNN
-F 3 "" H 2100 6000 50  0000 C CNN
-	1    2100 6000
+P 850 5600
+F 0 "R3" H 880 5620 50  0000 L CNN
+F 1 "620" H 880 5560 50  0000 L CNN
+F 2 "resistors:R_0603" H 850 5450 50  0001 C CNN
+F 3 "" H 850 5600 50  0000 C CNN
+	1    850  5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L MKRHMIShield-rescue:R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue R2
 U 1 1 5B63AC92
-P 2100 5500
-F 0 "R2" H 2130 5520 50  0000 L CNN
-F 1 "330" H 2130 5460 50  0000 L CNN
-F 2 "resistors:R_0603" H 2100 5350 50  0001 C CNN
-F 3 "" H 2100 5500 50  0000 C CNN
-	1    2100 5500
+P 850 5100
+F 0 "R2" H 880 5120 50  0000 L CNN
+F 1 "330" H 880 5060 50  0000 L CNN
+F 2 "resistors:R_0603" H 850 4950 50  0001 C CNN
+F 3 "" H 850 5100 50  0000 C CNN
+	1    850  5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L MKRHMIShield-rescue:R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue R1
 U 1 1 5B63AD92
-P 2100 5000
-F 0 "R1" H 2130 5020 50  0000 L CNN
-F 1 "2k" H 2130 4960 50  0000 L CNN
-F 2 "resistors:R_0603" H 2100 4850 50  0001 C CNN
-F 3 "" H 2100 5000 50  0000 C CNN
-	1    2100 5000
+P 850 4600
+F 0 "R1" H 880 4620 50  0000 L CNN
+F 1 "2k" H 880 4560 50  0000 L CNN
+F 2 "resistors:R_0603" H 850 4450 50  0001 C CNN
+F 3 "" H 850 4600 50  0000 C CNN
+	1    850  4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L MKRHMIShield-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue #PWR01
-U 1 1 5B63B0A9
-P 650 5400
-F 0 "#PWR01" H 650 5150 50  0001 C CNN
-F 1 "GND" H 650 5250 50  0000 C CNN
-F 2 "" H 650 5400 50  0000 C CNN
-F 3 "" H 650 5400 50  0000 C CNN
-	1    650  5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L MKRHMIShield-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue #PWR02
-U 1 1 5B63B132
-P 650 5900
-F 0 "#PWR02" H 650 5650 50  0001 C CNN
-F 1 "GND" H 650 5750 50  0000 C CNN
-F 2 "" H 650 5900 50  0000 C CNN
-F 3 "" H 650 5900 50  0000 C CNN
-	1    650  5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L MKRHMIShield-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue #PWR03
-U 1 1 5B63B1DF
-P 650 6400
-F 0 "#PWR03" H 650 6150 50  0001 C CNN
-F 1 "GND" H 650 6250 50  0000 C CNN
-F 2 "" H 650 6400 50  0000 C CNN
-F 3 "" H 650 6400 50  0000 C CNN
-	1    650  6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L MKRHMIShield-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue #PWR04
-U 1 1 5B63B220
-P 650 6900
-F 0 "#PWR04" H 650 6650 50  0001 C CNN
-F 1 "GND" H 650 6750 50  0000 C CNN
-F 2 "" H 650 6900 50  0000 C CNN
-F 3 "" H 650 6900 50  0000 C CNN
-	1    650  6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L MKRHMIShield-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue #PWR05
-U 1 1 5B63B261
-P 650 7400
-F 0 "#PWR05" H 650 7150 50  0001 C CNN
-F 1 "GND" H 650 7250 50  0000 C CNN
-F 2 "" H 650 7400 50  0000 C CNN
-F 3 "" H 650 7400 50  0000 C CNN
-	1    650  7400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 5200 1450 5200
-Connection ~ 1450 5200
-Wire Wire Line
-	1450 7300 1350 7300
-Wire Wire Line
-	1350 7200 1450 7200
-Connection ~ 1450 7200
-Wire Wire Line
-	750  7200 650  7200
-Wire Wire Line
-	650  7200 650  7300
-Wire Wire Line
-	750  6700 650  6700
-Wire Wire Line
-	650  6700 650  6800
-Wire Wire Line
-	750  6800 650  6800
-Connection ~ 650  6800
-Wire Wire Line
-	750  7300 650  7300
-Connection ~ 650  7300
-Wire Wire Line
-	1350 6800 1450 6800
-Wire Wire Line
-	1350 6700 1450 6700
-Connection ~ 1450 6700
-Wire Wire Line
-	750  5200 650  5200
-Wire Wire Line
-	650  5200 650  5300
-Wire Wire Line
-	750  5700 650  5700
-Wire Wire Line
-	650  5700 650  5800
-Wire Wire Line
-	750  6200 650  6200
-Wire Wire Line
-	650  6200 650  6300
-Wire Wire Line
-	750  6300 650  6300
-Connection ~ 650  6300
-Wire Wire Line
-	750  5800 650  5800
-Connection ~ 650  5800
-Wire Wire Line
-	750  5300 650  5300
-Connection ~ 650  5300
-Wire Wire Line
-	1350 5300 1450 5300
-Wire Wire Line
-	1350 5700 1450 5700
-Connection ~ 1450 5700
-Wire Wire Line
-	1350 5800 1450 5800
-Wire Wire Line
-	1350 6200 1450 6200
-Connection ~ 1450 6200
-Wire Wire Line
-	1350 6300 1450 6300
-Text Label 1350 5200 0    60   ~ 0
+Text Label 950  4800 0    60   ~ 0
 KEYPAD_A0
 $Comp
 L MKRHMIShield-rescue:R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue R7
@@ -290,58 +175,36 @@ DISPLAY_BL
 $Comp
 L MKRHMIShield-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue #PWR014
 U 1 1 5B63E57C
-P 4600 7150
-F 0 "#PWR014" H 4600 6900 50  0001 C CNN
-F 1 "GND" H 4600 7000 50  0000 C CNN
-F 2 "" H 4600 7150 50  0000 C CNN
-F 3 "" H 4600 7150 50  0000 C CNN
-	1    4600 7150
+P 5450 7100
+F 0 "#PWR014" H 5450 6850 50  0001 C CNN
+F 1 "GND" H 5450 6950 50  0000 C CNN
+F 2 "" H 5450 7100 50  0000 C CNN
+F 3 "" H 5450 7100 50  0000 C CNN
+	1    5450 7100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 6950 5350 6950
+	6800 6900 6200 6900
 Wire Wire Line
-	5300 7050 5350 7050
+	6150 7000 6200 7000
 Wire Wire Line
-	5350 7050 5350 6950
-Connection ~ 5350 6950
+	6200 7000 6200 6900
+Connection ~ 6200 6900
 Wire Wire Line
-	4700 6950 4600 6950
+	5550 6900 5450 6900
 Wire Wire Line
-	4600 6950 4600 7050
+	5450 6900 5450 7000
 Wire Wire Line
-	4700 7050 4600 7050
-Connection ~ 4600 7050
-Text Label 5450 6950 0    60   ~ 0
+	5550 7000 5450 7000
+Connection ~ 5450 7000
+Text Label 6300 6900 0    60   ~ 0
 RESET
-Wire Wire Line
-	1450 5200 2100 5200
-Wire Wire Line
-	1450 5200 1450 5300
-Wire Wire Line
-	1450 7200 1450 7300
-Wire Wire Line
-	650  6800 650  6900
-Wire Wire Line
-	650  7300 650  7400
-Wire Wire Line
-	1450 6700 1450 6800
-Wire Wire Line
-	650  6300 650  6400
-Wire Wire Line
-	650  5800 650  5900
-Wire Wire Line
-	650  5300 650  5400
-Wire Wire Line
-	1450 5700 1450 5800
-Wire Wire Line
-	1450 6200 1450 6300
 Wire Wire Line
 	5300 3550 5200 3550
 Wire Wire Line
-	5350 6950 5300 6950
+	6200 6900 6150 6900
 Wire Wire Line
-	4600 7050 4600 7150
+	5450 7000 5450 7100
 $Comp
 L MKRHMIShield-rescue:+3V3-power-supply-MKRHMIShield-rescue #PWR013
 U 1 1 5BB544C0
@@ -674,192 +537,129 @@ $EndComp
 $Comp
 L MKRHMIShield-rescue:C_0603-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue C11
 U 1 1 5BB72DA3
-P 2750 7100
-F 0 "C11" H 2760 7170 50  0000 L CNN
-F 1 "1uF" H 2760 7020 50  0000 L CNN
-F 2 "capacitors:C_0603" H 2750 6950 50  0001 C CNN
-F 3 "" H 2750 7100 50  0000 C CNN
-	1    2750 7100
+P 5850 5650
+F 0 "C11" H 5860 5720 50  0000 L CNN
+F 1 "1uF" H 5860 5570 50  0000 L CNN
+F 2 "capacitors:C_0603" H 5850 5500 50  0001 C CNN
+F 3 "" H 5850 5650 50  0000 C CNN
+	1    5850 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L MKRHMIShield-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue #PWR0101
 U 1 1 5BB72E31
-P 2750 7250
-F 0 "#PWR0101" H 2750 7000 50  0001 C CNN
-F 1 "GND" H 2750 7100 50  0000 C CNN
-F 2 "" H 2750 7250 50  0000 C CNN
-F 3 "" H 2750 7250 50  0000 C CNN
-	1    2750 7250
+P 5850 5800
+F 0 "#PWR0101" H 5850 5550 50  0001 C CNN
+F 1 "GND" H 5850 5650 50  0000 C CNN
+F 2 "" H 5850 5800 50  0000 C CNN
+F 3 "" H 5850 5800 50  0000 C CNN
+	1    5850 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L MKRHMIShield-rescue:+3V3-power-supply-MKRHMIShield-rescue #PWR0103
 U 1 1 5BB72F67
-P 2750 6850
-F 0 "#PWR0103" H 2750 6700 50  0001 C CNN
-F 1 "+3V3" V 2765 6978 50  0000 L CNN
-F 2 "" H 2750 6850 50  0000 C CNN
-F 3 "" H 2750 6850 50  0000 C CNN
-	1    2750 6850
+P 5850 5400
+F 0 "#PWR0103" H 5850 5250 50  0001 C CNN
+F 1 "+3V3" V 5865 5528 50  0000 L CNN
+F 2 "" H 5850 5400 50  0000 C CNN
+F 3 "" H 5850 5400 50  0000 C CNN
+	1    5850 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 7250 2750 7200
+	5850 5800 5850 5750
 Wire Wire Line
-	2750 7000 2750 6950
-Connection ~ 2750 6950
+	5850 5550 5850 5500
+Connection ~ 5850 5500
 Wire Wire Line
-	2750 6950 2750 6850
-Text Label 1350 5700 0    60   ~ 0
+	5850 5500 5850 5400
+Text Label 950  5300 0    60   ~ 0
 BUTTON_UP
-Text Label 1350 6200 0    60   ~ 0
+Text Label 950  5800 0    60   ~ 0
 BUTTON_DOWN
-Text Label 1350 6700 0    60   ~ 0
+Text Label 950  6300 0    60   ~ 0
 BUTTON_LEFT
-Text Label 1350 7200 0    60   ~ 0
+Text Label 950  6800 0    60   ~ 0
 BUTTON_SELECT
 Wire Wire Line
-	2100 5200 2100 5100
-Connection ~ 2100 5200
+	850  4800 850  4700
+Connection ~ 850  4800
 Wire Wire Line
-	2100 5400 2100 5200
+	850  5000 850  4800
 Wire Wire Line
-	2100 4900 2100 4850
+	850  4500 850  4450
 Wire Wire Line
-	2100 5600 2100 5700
+	850  5200 850  5300
 Wire Wire Line
-	2100 6100 2100 6200
+	850  5700 850  5800
 Wire Wire Line
-	2100 6600 2100 6700
+	850  6200 850  6300
 Wire Wire Line
-	1450 7200 2100 7200
+	850  6800 850  6700
+Connection ~ 850  6300
 Wire Wire Line
-	2100 7200 2100 7100
+	850  6300 850  6500
+Connection ~ 850  5800
 Wire Wire Line
-	1450 6700 2100 6700
-Connection ~ 2100 6700
+	850  5800 850  6000
+Connection ~ 850  5300
 Wire Wire Line
-	2100 6700 2100 6900
-Wire Wire Line
-	1450 6200 2100 6200
-Connection ~ 2100 6200
-Wire Wire Line
-	2100 6200 2100 6400
-Wire Wire Line
-	1450 5700 2100 5700
-Connection ~ 2100 5700
-Wire Wire Line
-	2100 5700 2100 5900
+	850  5300 850  5500
 $Comp
 L MKRHMIShield-rescue:R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue R21
 U 1 1 5BEF46DB
-P 3050 6950
-F 0 "R21" H 3080 6970 50  0000 L CNN
-F 1 "1k" H 3080 6910 50  0000 L CNN
-F 2 "resistors:R_0603" H 3050 6800 50  0001 C CNN
-F 3 "" H 3050 6950 50  0000 C CNN
-	1    3050 6950
+P 6150 5500
+F 0 "R21" H 6180 5520 50  0000 L CNN
+F 1 "1k" H 6180 5460 50  0000 L CNN
+F 2 "resistors:R_0603" H 6150 5350 50  0001 C CNN
+F 3 "" H 6150 5500 50  0000 C CNN
+	1    6150 5500
 	0    1    1    0   
 $EndComp
 $Comp
 L MKRHMIShield-rescue:Led_Small-devices-MKRHMIShield-rescue D1
 U 1 1 5BEF49F3
-P 3250 7100
-F 0 "D1" V 3296 7032 50  0000 R CNN
-F 1 "green" V 3205 7032 50  0000 R CNN
-F 2 "LEDs:LED_0603" V 3250 7100 50  0001 C CNN
-F 3 "" V 3250 7100 50  0000 C CNN
-	1    3250 7100
+P 6350 5650
+F 0 "D1" V 6396 5582 50  0000 R CNN
+F 1 "green" V 6305 5582 50  0000 R CNN
+F 2 "LEDs:LED_0603" V 6350 5650 50  0001 C CNN
+F 3 "" V 6350 5650 50  0000 C CNN
+	1    6350 5650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L MKRHMIShield-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue #PWR030
 U 1 1 5BEF4BB1
-P 3250 7250
-F 0 "#PWR030" H 3250 7000 50  0001 C CNN
-F 1 "GND" H 3250 7100 50  0000 C CNN
-F 2 "" H 3250 7250 50  0000 C CNN
-F 3 "" H 3250 7250 50  0000 C CNN
-	1    3250 7250
+P 6350 5800
+F 0 "#PWR030" H 6350 5550 50  0001 C CNN
+F 1 "GND" H 6350 5650 50  0000 C CNN
+F 2 "" H 6350 5800 50  0000 C CNN
+F 3 "" H 6350 5800 50  0000 C CNN
+	1    6350 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 6950 2750 6950
+	6050 5500 5850 5500
 Wire Wire Line
-	3150 6950 3250 6950
+	6250 5500 6350 5500
 Wire Wire Line
-	3250 6950 3250 7000
+	6350 5500 6350 5550
 Wire Wire Line
-	3250 7200 3250 7250
+	6350 5750 6350 5800
 Wire Wire Line
 	2500 1800 2950 1800
 Text Notes 7000 6900 0    43   ~ 0
 You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY \nQUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2  for applicable conditions
 $Comp
-L MKRHMIShield-rescue:TAST_VER-mechanical-switches-MKRHMIShield-rescue SW1
-U 1 1 5D124A7D
-P 1050 5200
-F 0 "SW1" H 1050 5537 60  0000 C CNN
-F 1 "TAST_VER" H 1050 5431 60  0000 C CNN
-F 2 "mechanical-switches:WE_430182080816" H 1900 5250 60  0001 C CNN
-F 3 "" H 1900 5250 60  0000 C CNN
-	1    1050 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MKRHMIShield-rescue:TAST_VER-mechanical-switches-MKRHMIShield-rescue SW2
-U 1 1 5D124E3B
-P 1050 5700
-F 0 "SW2" H 1050 6037 60  0000 C CNN
-F 1 "TAST_VER" H 1050 5931 60  0000 C CNN
-F 2 "mechanical-switches:WE_430182080816" H 1900 5750 60  0001 C CNN
-F 3 "" H 1900 5750 60  0000 C CNN
-	1    1050 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L MKRHMIShield-rescue:TAST_VER-mechanical-switches-MKRHMIShield-rescue SW3
-U 1 1 5D124EC3
-P 1050 6200
-F 0 "SW3" H 1050 6537 60  0000 C CNN
-F 1 "TAST_VER" H 1050 6431 60  0000 C CNN
-F 2 "mechanical-switches:WE_430182080816" H 1900 6250 60  0001 C CNN
-F 3 "" H 1900 6250 60  0000 C CNN
-	1    1050 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MKRHMIShield-rescue:TAST_VER-mechanical-switches-MKRHMIShield-rescue SW4
-U 1 1 5D124F55
-P 1050 6700
-F 0 "SW4" H 1050 7037 60  0000 C CNN
-F 1 "TAST_VER" H 1050 6931 60  0000 C CNN
-F 2 "mechanical-switches:WE_430182080816" H 1900 6750 60  0001 C CNN
-F 3 "" H 1900 6750 60  0000 C CNN
-	1    1050 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L MKRHMIShield-rescue:TAST_VER-mechanical-switches-MKRHMIShield-rescue SW5
-U 1 1 5D1250D0
-P 1050 7200
-F 0 "SW5" H 1050 7537 60  0000 C CNN
-F 1 "TAST_VER" H 1050 7431 60  0000 C CNN
-F 2 "mechanical-switches:WE_430182080816" H 1900 7250 60  0001 C CNN
-F 3 "" H 1900 7250 60  0000 C CNN
-	1    1050 7200
-	1    0    0    -1  
-$EndComp
-$Comp
 L MKRHMIShield-rescue:TAST_VER-mechanical-switches-MKRHMIShield-rescue SW6
 U 1 1 5D125154
-P 5000 6950
-F 0 "SW6" H 5000 7287 60  0000 C CNN
-F 1 "TAST_VER" H 5000 7181 60  0000 C CNN
-F 2 "mechanical-switches:WE_430182050816" H 5850 7000 60  0001 C CNN
-F 3 "" H 5850 7000 60  0000 C CNN
-	1    5000 6950
+P 5850 6900
+F 0 "SW6" H 5850 7237 60  0000 C CNN
+F 1 "TAST_VER" H 5850 7131 60  0000 C CNN
+F 2 "mechanical-switches:WE_430182050816" H 6700 6950 60  0001 C CNN
+F 3 "" H 6700 6950 60  0000 C CNN
+	1    5850 6900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -868,27 +668,27 @@ U 1 1 5DBCD741
 P 9000 3250
 F 0 "CN1" H 9000 4147 60  0000 C CNN
 F 1 "ARDUINO_MKR" H 9000 4041 60  0000 C CNN
-F 2 "MODULE_compute:ARDUINO_MKR" H 8900 3900 60  0001 C CNN
+F 2 "MODULE_compute:ARDUINO_MKR_HOLES" H 8900 3900 60  0001 C CNN
 F 3 "" H 9000 2950 60  0000 C CNN
 	1    9000 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L MKRHMIShield-rescue:+3V3-power-supply-MKRHMIShield-rescue #PWR?
+L MKRHMIShield-rescue:+3V3-power-supply-MKRHMIShield-rescue #PWR0102
 U 1 1 5DBD379E
-P 2100 4850
-F 0 "#PWR?" H 2100 4700 50  0001 C CNN
-F 1 "+3V3" V 2115 4978 50  0000 L CNN
-F 2 "" H 2100 4850 50  0000 C CNN
-F 3 "" H 2100 4850 50  0000 C CNN
-	1    2100 4850
+P 850 4450
+F 0 "#PWR0102" H 850 4300 50  0001 C CNN
+F 1 "+3V3" V 865 4578 50  0000 L CNN
+F 2 "" H 850 4450 50  0000 C CNN
+F 3 "" H 850 4450 50  0000 C CNN
+	1    850  4450
 	1    0    0    -1  
 $EndComp
 $Comp
-L MKRHMIShield-rescue:+3V3-power-supply-MKRHMIShield-rescue #PWR?
+L MKRHMIShield-rescue:+3V3-power-supply-MKRHMIShield-rescue #PWR0104
 U 1 1 5DBD60EE
 P 5300 3150
-F 0 "#PWR?" H 5300 3000 50  0001 C CNN
+F 0 "#PWR0104" H 5300 3000 50  0001 C CNN
 F 1 "+3V3" V 5315 3278 50  0000 L CNN
 F 2 "" H 5300 3150 50  0000 C CNN
 F 3 "" H 5300 3150 50  0000 C CNN
@@ -914,10 +714,10 @@ RESET
 NoConn ~ 9600 2600
 NoConn ~ 9600 2700
 $Comp
-L MKRHMIShield-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue #PWR?
+L MKRHMIShield-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue #PWR0105
 U 1 1 5DC0F0A4
 P 9650 3950
-F 0 "#PWR?" H 9650 3700 50  0001 C CNN
+F 0 "#PWR0105" H 9650 3700 50  0001 C CNN
 F 1 "GND" H 9650 3800 50  0000 C CNN
 F 2 "" H 9650 3950 50  0000 C CNN
 F 3 "" H 9650 3950 50  0000 C CNN
@@ -925,10 +725,10 @@ F 3 "" H 9650 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MKRHMIShield-rescue:+3V3-power-supply-MKRHMIShield-rescue #PWR?
+L MKRHMIShield-rescue:+3V3-power-supply-MKRHMIShield-rescue #PWR0106
 U 1 1 5DC10F3C
 P 9700 2500
-F 0 "#PWR?" H 9700 2350 50  0001 C CNN
+F 0 "#PWR0106" H 9700 2350 50  0001 C CNN
 F 1 "+3V3" V 9715 2628 50  0000 L CNN
 F 2 "" H 9700 2500 50  0000 C CNN
 F 3 "" H 9700 2500 50  0000 C CNN
@@ -972,4 +772,58 @@ Wire Wire Line
 	7550 3300 8400 3300
 Text Label 7600 3300 0    60   ~ 0
 DISPLAY_BL
+$Comp
+L mechanical-switches:ALPS_SKRH SW1
+U 1 1 5DAD3188
+P 1900 7150
+F 0 "SW1" H 2450 8093 60  0000 C CNN
+F 1 "ALPS_SKRH" H 2450 7987 60  0000 C CNN
+F 2 "mechanical-switches:ALPS_SKRH" H 2450 7881 60  0000 C CNN
+F 3 "" H 2750 7200 60  0000 C CNN
+	1    1900 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  6800 1900 6800
+Wire Wire Line
+	1900 6600 1750 6600
+Wire Wire Line
+	1750 6600 1750 5300
+Wire Wire Line
+	1750 5300 850  5300
+Wire Wire Line
+	1900 7000 1600 7000
+Wire Wire Line
+	1600 7000 1600 6300
+Wire Wire Line
+	1600 6300 850  6300
+Wire Wire Line
+	3000 6600 3100 6600
+Wire Wire Line
+	3100 6600 3100 4800
+Wire Wire Line
+	3100 4800 850  4800
+Wire Wire Line
+	3000 7000 3250 7000
+Wire Wire Line
+	3250 7000 3250 5800
+Wire Wire Line
+	3250 5800 850  5800
+$Comp
+L MKRHMIShield-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue #PWR0107
+U 1 1 5DB10B85
+P 3100 7150
+F 0 "#PWR0107" H 3100 6900 50  0001 C CNN
+F 1 "GND" H 3100 7000 50  0000 C CNN
+F 2 "" H 3100 7150 50  0000 C CNN
+F 3 "" H 3100 7150 50  0000 C CNN
+	1    3100 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 6800 3100 6800
+Wire Wire Line
+	3100 6800 3100 7150
+Text Notes 1150 7600 0    47   ~ 0
+multicomp MCMT5 should also be OK\nhttps://de.farnell.com/multicomp/mcmt5-f-v/navigationsschalter-5polig-smd/dp/1316987
 $EndSCHEMATC
