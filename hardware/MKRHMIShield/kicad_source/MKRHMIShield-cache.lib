@@ -1,0 +1,235 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MKRHMIShield-rescue_+3V3-power-supply-MKRHMIShield-rescue
+#
+DEF MKRHMIShield-rescue_+3V3-power-supply-MKRHMIShield-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "MKRHMIShield-rescue_+3V3-power-supply-MKRHMIShield-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# MKRHMIShield-rescue_+5V-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue
+#
+DEF MKRHMIShield-rescue_+5V-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "MKRHMIShield-rescue_+5V-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# MKRHMIShield-rescue_C_0603-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue
+#
+DEF MKRHMIShield-rescue_C_0603-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "MKRHMIShield-rescue_C_0603-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue" 10 -80 50 H V L CNN
+F2 "capacitors:C_0603" 0 -150 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MKRHMIShield-rescue_EA_DOGM132-5-displays-MKRHMIShield-rescue
+#
+DEF MKRHMIShield-rescue_EA_DOGM132-5-displays-MKRHMIShield-rescue DIS 0 40 Y Y 1 F N
+F0 "DIS" -850 900 60 H V C CNN
+F1 "MKRHMIShield-rescue_EA_DOGM132-5-displays-MKRHMIShield-rescue" 50 300 60 H V C CNN
+F2 "displays:EA_DOGM081_162_163_132" 0 550 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -950 850 1100 -350 0 1 0 N
+X A1 1 700 -550 200 U 50 50 1 1 I
+X C2 19 500 -550 200 U 50 50 1 1 I
+X C1 2 800 -550 200 U 50 50 1 1 I
+X A2 20 400 -550 200 U 50 50 1 1 I
+X V0 21 -1150 -250 200 R 50 50 1 1 I
+X V1 22 -1150 -150 200 R 50 50 1 1 I
+X V2 23 -1150 -50 200 R 50 50 1 1 I
+X V3 24 -1150 50 200 R 50 50 1 1 I
+X V4 25 -1150 150 200 R 50 50 1 1 I
+X VSS 26 1300 -150 200 L 50 50 1 1 I
+X CAP2N 27 1300 -50 200 L 50 50 1 1 I
+X CAP2P 28 1300 250 200 L 50 50 1 1 I
+X CAP1P 29 1300 350 200 L 50 50 1 1 I
+X CAP1N 30 1300 650 200 L 50 50 1 1 I
+X CAP3P 31 1300 750 200 L 50 50 1 1 I
+X VOUT 32 -1150 450 200 R 50 50 1 1 I
+X VSS 33 1300 -250 200 L 50 50 1 1 I
+X VDD2 34 -1150 650 200 R 50 50 1 1 I
+X VDD 35 -1150 750 200 R 50 50 1 1 I
+X SI 36 -700 -550 200 U 50 50 1 1 I
+X SCL 37 -600 -550 200 U 50 50 1 1 I
+X A0 38 -500 -550 200 U 50 50 1 1 I
+X RESET 39 -100 -550 200 U 50 50 1 1 I
+X CS 40 -400 -550 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MKRHMIShield-rescue_GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue
+#
+DEF MKRHMIShield-rescue_GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "MKRHMIShield-rescue_GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# MKRHMIShield-rescue_Led_Small-devices-MKRHMIShield-rescue
+#
+DEF MKRHMIShield-rescue_Led_Small-devices-MKRHMIShield-rescue D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "MKRHMIShield-rescue_Led_Small-devices-MKRHMIShield-rescue" -175 -100 50 H V L CNN
+F2 "" 0 0 50 V V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 40 40 1 1 P
+X A 2 100 0 70 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MKRHMIShield-rescue_Q_NMOS_GSD-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue
+#
+DEF MKRHMIShield-rescue_Q_NMOS_GSD-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue Q 0 0 Y N 1 F N
+F0 "Q" 300 50 50 H V R CNN
+F1 "MKRHMIShield-rescue_Q_NMOS_GSD-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue" 650 -50 50 H V R CNN
+F2 "" 200 100 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+X G 1 -200 0 210 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MKRHMIShield-rescue_R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue
+#
+DEF MKRHMIShield-rescue_R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "MKRHMIShield-rescue_R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue" 30 -40 50 H V L CNN
+F2 "resistors:R_1206" 0 -150 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Resistor_*
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 40 40 1 1 P
+X ~ 2 0 -100 30 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MKRHMIShield-rescue_TAST_VER-mechanical-switches-MKRHMIShield-rescue
+#
+DEF MKRHMIShield-rescue_TAST_VER-mechanical-switches-MKRHMIShield-rescue SW 0 40 Y Y 1 F N
+F0 "SW" 0 200 60 H V C CNN
+F1 "MKRHMIShield-rescue_TAST_VER-mechanical-switches-MKRHMIShield-rescue" 0 -200 60 H V C CNN
+F2 "mechanical-switches:PCB_PUSH" 850 50 60 H I C CNN
+F3 "" 850 50 60 H V C CNN
+DRAW
+C -100 0 10 0 1 0 N
+C 100 0 10 0 1 0 N
+P 2 0 1 0 -100 0 -100 -100 N
+P 2 0 1 0 -100 0 100 100 N
+P 2 0 1 0 -50 150 -50 100 N
+P 2 0 1 0 -50 150 -50 150 N
+P 2 0 1 0 0 50 0 150 N
+P 2 0 1 0 50 150 -50 150 N
+P 2 0 1 0 50 150 50 100 N
+P 2 0 1 0 100 0 100 -100 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+X ~ 3 -300 -100 200 R 50 50 1 1 I
+X ~ 4 300 -100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MODULE_compute_ARDUINO_MKR
+#
+DEF MODULE_compute_ARDUINO_MKR CN 0 40 Y Y 1 F N
+F0 "CN" 0 750 60 H V C CNN
+F1 "MODULE_compute_ARDUINO_MKR" 0 -750 60 H V C CNN
+F2 "MODULE_compute:ARDUINO_MKR" -100 650 60 H I C CNN
+F3 "" 0 -300 60 H V C CNN
+DRAW
+S -400 700 400 -700 0 1 0 N
+X AREF 1 -600 650 200 R 50 50 1 1 I
+X 1 10 -600 -250 200 R 50 50 1 1 I
+X ~~2 11 -600 -350 200 R 50 50 1 1 I
+X ~~3 12 -600 -450 200 R 50 50 1 1 I
+X ~~4 13 -600 -550 200 R 50 50 1 1 I
+X ~~5 14 -600 -650 200 R 50 50 1 1 I
+X 6 15 600 -650 200 L 50 50 1 1 I
+X 7 16 600 -550 200 L 50 50 1 1 I
+X 8/MOSI 17 600 -450 200 L 50 50 1 1 I
+X 9/SCK 18 600 -350 200 L 50 50 1 1 I
+X 10/MISO 19 600 -250 200 L 50 50 1 1 I
+X DAC0/A0 2 -600 550 200 R 50 50 1 1 I
+X 11/SDA 20 600 -150 200 L 50 50 1 1 I
+X 12/SCL 21 600 -50 200 L 50 50 1 1 I
+X 13/RX 22 600 50 200 L 50 50 1 1 I
+X 14/TX 23 600 150 200 L 50 50 1 1 I
+X RESET 24 600 250 200 L 50 50 1 1 I
+X GND 25 600 350 200 L 50 50 1 1 I
+X VCC 26 600 450 200 L 50 50 1 1 I
+X VIN 27 600 550 200 L 50 50 1 1 I
+X 5V0 28 600 650 200 L 50 50 1 1 I
+X A1 3 -600 450 200 R 50 50 1 1 I
+X A2 4 -600 350 200 R 50 50 1 1 I
+X A3 5 -600 250 200 R 50 50 1 1 I
+X A4 6 -600 150 200 R 50 50 1 1 I
+X A5 7 -600 50 200 R 50 50 1 1 I
+X A6 8 -600 -50 200 R 50 50 1 1 I
+X 0 9 -600 -150 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
