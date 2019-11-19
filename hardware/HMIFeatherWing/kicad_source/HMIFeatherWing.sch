@@ -663,17 +663,6 @@ F 3 "" H 6700 6950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MODULE_compute:ARDUINO_MKR CN1
-U 1 1 5DBCD741
-P 9000 3250
-F 0 "CN1" H 9000 4147 60  0000 C CNN
-F 1 "ARDUINO_MKR" H 9000 4041 60  0000 C CNN
-F 2 "MODULE_compute:ARDUINO_MKR_HOLES" H 8900 3900 60  0001 C CNN
-F 3 "" H 9000 2950 60  0000 C CNN
-	1    9000 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L HMIFeatherWing-rescue:+3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue #PWR0102
 U 1 1 5DBD379E
 P 850 4450
@@ -695,82 +684,43 @@ F 3 "" H 5300 3150 50  0000 C CNN
 	1    5300 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10250 3700 9600 3700
-Wire Wire Line
-	10250 3600 9600 3600
-Text Label 9750 3700 0    60   ~ 0
+Text Label 7850 3450 0    60   ~ 0
 DIS_SI
-Text Label 9750 3600 0    60   ~ 0
+Text Label 7850 3350 0    60   ~ 0
 DIS_CLK
-Wire Wire Line
-	10250 3000 9600 3000
-Wire Wire Line
-	7550 2700 8400 2700
-Text Label 7650 2700 0    60   ~ 0
+Text Label 7850 2750 0    60   ~ 0
 KEYPAD_A0
-Text Label 9750 3000 0    60   ~ 0
+Text Label 8100 2350 0    60   ~ 0
 RESET
-NoConn ~ 9600 2600
-NoConn ~ 9600 2700
 $Comp
 L HMIFeatherWing-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue #PWR0105
 U 1 1 5DC0F0A4
-P 9650 3950
-F 0 "#PWR0105" H 9650 3700 50  0001 C CNN
-F 1 "GND" H 9650 3800 50  0000 C CNN
-F 2 "" H 9650 3950 50  0000 C CNN
-F 3 "" H 9650 3950 50  0000 C CNN
-	1    9650 3950
+P 8450 3950
+F 0 "#PWR0105" H 8450 3700 50  0001 C CNN
+F 1 "GND" H 8450 3800 50  0000 C CNN
+F 2 "" H 8450 3950 50  0000 C CNN
+F 3 "" H 8450 3950 50  0000 C CNN
+	1    8450 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L HMIFeatherWing-rescue:+3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue #PWR0106
 U 1 1 5DC10F3C
-P 9700 2500
-F 0 "#PWR0106" H 9700 2350 50  0001 C CNN
-F 1 "+3V3" V 9715 2628 50  0000 L CNN
-F 2 "" H 9700 2500 50  0000 C CNN
-F 3 "" H 9700 2500 50  0000 C CNN
-	1    9700 2500
+P 8450 2200
+F 0 "#PWR0106" H 8450 2050 50  0001 C CNN
+F 1 "+3V3" V 8465 2328 50  0000 L CNN
+F 2 "" H 8450 2200 50  0000 C CNN
+F 3 "" H 8450 2200 50  0000 C CNN
+	1    8450 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9600 2800 9700 2800
-Wire Wire Line
-	9700 2800 9700 2500
-Wire Wire Line
-	9600 2900 9650 2900
-Wire Wire Line
-	9650 2900 9650 3950
-NoConn ~ 9600 3100
-NoConn ~ 9600 3200
-NoConn ~ 9600 3300
-NoConn ~ 9600 3400
-NoConn ~ 9600 3500
-NoConn ~ 8400 2600
-NoConn ~ 8400 3000
-NoConn ~ 8400 3100
-NoConn ~ 8400 3600
-NoConn ~ 8400 3700
-NoConn ~ 8400 3800
-NoConn ~ 8400 3900
-NoConn ~ 9600 3900
-Wire Wire Line
-	10250 3800 9600 3800
-Text Label 9750 3800 0    60   ~ 0
+Text Label 9850 3050 0    60   ~ 0
 DIS_CS
-Wire Wire Line
-	7550 3400 8400 3400
-Wire Wire Line
-	7550 3500 8400 3500
-Text Label 7600 3400 0    60   ~ 0
+Text Label 9850 3250 0    60   ~ 0
 DIS_A0
-Text Label 7600 3500 0    60   ~ 0
+Text Label 9850 3350 0    60   ~ 0
 DIS_RESET
-Wire Wire Line
-	7550 3300 8400 3300
-Text Label 7600 3300 0    60   ~ 0
+Text Label 9850 3150 0    60   ~ 0
 DISPLAY_BL
 $Comp
 L mechanical-switches:ALPS_SKRH SW1
@@ -826,4 +776,61 @@ Wire Wire Line
 	3100 6800 3100 7150
 Text Notes 1150 7600 0    47   ~ 0
 multicomp MCMT5 should also be OK\nhttps://de.farnell.com/multicomp/mcmt5-f-v/navigationsschalter-5polig-smd/dp/1316987
+$Comp
+L MODULE_compute:ADAFRUIT_FEATHER CN1
+U 1 1 5DD44785
+P 9150 3100
+F 0 "CN1" H 9150 4097 60  0000 C CNN
+F 1 "ADAFRUIT_FEATHER" H 9150 3991 60  0000 C CNN
+F 2 "MODULE_compute:ADAFRUIT_FEATHER_HOLES" H 9300 3850 60  0001 C CNN
+F 3 "" H 9150 2900 60  0000 C CNN
+	1    9150 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2650 8450 2650
+Wire Wire Line
+	8450 2650 8450 3850
+Wire Wire Line
+	8550 3850 8450 3850
+Connection ~ 8450 3850
+Wire Wire Line
+	8450 3850 8450 3950
+Wire Wire Line
+	8050 2350 8550 2350
+Wire Wire Line
+	8550 2450 8450 2450
+Wire Wire Line
+	8450 2450 8450 2200
+Wire Wire Line
+	7800 2750 8550 2750
+Wire Wire Line
+	7800 3350 8550 3350
+Wire Wire Line
+	7800 3450 8550 3450
+Wire Wire Line
+	10400 3050 9750 3050
+Wire Wire Line
+	10400 3150 9750 3150
+Wire Wire Line
+	10400 3250 9750 3250
+Wire Wire Line
+	10400 3350 9750 3350
+NoConn ~ 8550 2550
+NoConn ~ 8550 2850
+NoConn ~ 8550 2950
+NoConn ~ 8550 3050
+NoConn ~ 8550 3150
+NoConn ~ 8550 3250
+NoConn ~ 8550 3550
+NoConn ~ 8550 3650
+NoConn ~ 8550 3750
+NoConn ~ 9750 3850
+NoConn ~ 9750 3750
+NoConn ~ 9750 3650
+NoConn ~ 9750 3550
+NoConn ~ 9750 3450
+NoConn ~ 9750 2950
+NoConn ~ 9750 2850
+NoConn ~ 9750 2750
 $EndSCHEMATC

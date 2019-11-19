@@ -1,4 +1,4 @@
-update=So 20 Okt 2019 01:21:44 CEST
+update=Di 19 Nov 2019 02:02:25 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -22,7 +22,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=MKRHMIShield.net
+LastNetListRead=HMIFeatherWing.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
