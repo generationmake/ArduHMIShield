@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:HMIFeatherWing-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -140,17 +139,6 @@ F 3 "" H 5300 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HMIFeatherWing-rescue:+5V-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue #PWR016
-U 1 1 5B63CEC4
-P 5000 2850
-F 0 "#PWR016" H 5000 2700 50  0001 C CNN
-F 1 "+5V" H 5000 2990 50  0000 C CNN
-F 2 "" H 5000 2850 50  0000 C CNN
-F 3 "" H 5000 2850 50  0000 C CNN
-	1    5000 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L HMIFeatherWing-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue #PWR015
 U 1 1 5B63D119
 P 4900 3850
@@ -184,27 +172,11 @@ F 3 "" H 5450 7100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 6900 6200 6900
-Wire Wire Line
-	6150 7000 6200 7000
-Wire Wire Line
-	6200 7000 6200 6900
-Connection ~ 6200 6900
-Wire Wire Line
 	5550 6900 5450 6900
-Wire Wire Line
-	5450 6900 5450 7000
-Wire Wire Line
-	5550 7000 5450 7000
-Connection ~ 5450 7000
 Text Label 6300 6900 0    60   ~ 0
 RESET
 Wire Wire Line
 	5300 3550 5200 3550
-Wire Wire Line
-	6200 6900 6150 6900
-Wire Wire Line
-	5450 7000 5450 7100
 $Comp
 L HMIFeatherWing-rescue:+3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue #PWR013
 U 1 1 5BB544C0
@@ -652,17 +624,6 @@ Wire Wire Line
 Text Notes 7000 6900 0    43   ~ 0
 You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY \nQUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2  for applicable conditions
 $Comp
-L HMIFeatherWing-rescue:TAST_VER-mechanical-switches-MKRHMIShield-rescue-MKRHMIShield-rescue SW6
-U 1 1 5D125154
-P 5850 6900
-F 0 "SW6" H 5850 7237 60  0000 C CNN
-F 1 "TAST_VER" H 5850 7131 60  0000 C CNN
-F 2 "mechanical-switches:WE_430182050816" H 6700 6950 60  0001 C CNN
-F 3 "" H 6700 6950 60  0000 C CNN
-	1    5850 6900
-	1    0    0    -1  
-$EndComp
-$Comp
 L HMIFeatherWing-rescue:+3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue #PWR0102
 U 1 1 5DBD379E
 P 850 4450
@@ -688,7 +649,7 @@ Text Label 7850 3450 0    60   ~ 0
 DIS_SI
 Text Label 7850 3350 0    60   ~ 0
 DIS_CLK
-Text Label 7850 2750 0    60   ~ 0
+Text Label 6850 2750 0    60   ~ 0
 KEYPAD_A0
 Text Label 8100 2350 0    60   ~ 0
 RESET
@@ -714,13 +675,13 @@ F 3 "" H 8450 2200 50  0000 C CNN
 	1    8450 2200
 	1    0    0    -1  
 $EndComp
-Text Label 9850 3050 0    60   ~ 0
+Text Label 7850 2850 0    60   ~ 0
 DIS_CS
-Text Label 9850 3250 0    60   ~ 0
+Text Label 7850 3050 0    60   ~ 0
 DIS_A0
-Text Label 9850 3350 0    60   ~ 0
+Text Label 7850 2950 0    60   ~ 0
 DIS_RESET
-Text Label 9850 3150 0    60   ~ 0
+Text Label 9850 3050 0    60   ~ 0
 DISPLAY_BL
 $Comp
 L mechanical-switches:ALPS_SKRH SW1
@@ -790,38 +751,19 @@ $EndComp
 Wire Wire Line
 	8550 2650 8450 2650
 Wire Wire Line
-	8450 2650 8450 3850
-Wire Wire Line
-	8550 3850 8450 3850
-Connection ~ 8450 3850
-Wire Wire Line
-	8450 3850 8450 3950
-Wire Wire Line
 	8050 2350 8550 2350
 Wire Wire Line
 	8550 2450 8450 2450
 Wire Wire Line
 	8450 2450 8450 2200
 Wire Wire Line
-	7800 2750 8550 2750
-Wire Wire Line
 	7800 3350 8550 3350
 Wire Wire Line
 	7800 3450 8550 3450
 Wire Wire Line
 	10400 3050 9750 3050
-Wire Wire Line
-	10400 3150 9750 3150
-Wire Wire Line
-	10400 3250 9750 3250
-Wire Wire Line
-	10400 3350 9750 3350
 NoConn ~ 8550 2550
-NoConn ~ 8550 2850
-NoConn ~ 8550 2950
-NoConn ~ 8550 3050
 NoConn ~ 8550 3150
-NoConn ~ 8550 3250
 NoConn ~ 8550 3550
 NoConn ~ 8550 3650
 NoConn ~ 8550 3750
@@ -833,4 +775,82 @@ NoConn ~ 9750 3450
 NoConn ~ 9750 2950
 NoConn ~ 9750 2850
 NoConn ~ 9750 2750
+Wire Wire Line
+	8450 2650 8450 3950
+NoConn ~ 8550 3850
+NoConn ~ 7700 3950
+$Comp
+L HMIFeatherWing-rescue:R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue R6
+U 1 1 5DE81459
+P 7600 2750
+F 0 "R6" H 7630 2770 50  0000 L CNN
+F 1 "DNI" H 7630 2710 50  0000 L CNN
+F 2 "resistors:R_0603" H 7600 2600 50  0001 C CNN
+F 3 "" H 7600 2750 50  0000 C CNN
+	1    7600 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L HMIFeatherWing-rescue:R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue R10
+U 1 1 5DE835D8
+P 7600 3250
+F 0 "R10" H 7630 3270 50  0000 L CNN
+F 1 "0R" H 7630 3210 50  0000 L CNN
+F 2 "resistors:R_0603" H 7600 3100 50  0001 C CNN
+F 3 "" H 7600 3250 50  0000 C CNN
+	1    7600 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 2750 7450 2750
+Wire Wire Line
+	7450 2750 7450 3250
+Wire Wire Line
+	7450 3250 7500 3250
+Connection ~ 7450 2750
+Wire Wire Line
+	7450 2750 7500 2750
+Wire Wire Line
+	7700 3250 8550 3250
+Wire Wire Line
+	7700 2750 8550 2750
+Text Label 7850 3250 0    60   ~ 0
+KEYPAD_A0_5
+Text Label 7850 2750 0    60   ~ 0
+KEYPAD_A0_0
+Wire Wire Line
+	7800 3050 8550 3050
+Wire Wire Line
+	7800 2950 8550 2950
+Wire Wire Line
+	7800 2850 8550 2850
+NoConn ~ 9750 3350
+NoConn ~ 9750 3250
+NoConn ~ 9750 3150
+$Comp
+L devices:SW_PUSH SW2
+U 1 1 5DEB8D9E
+P 5850 6900
+F 0 "SW2" H 5850 7155 50  0000 C CNN
+F 1 "SW_PUSH" H 5850 7064 50  0000 C CNN
+F 2 "mechanical-switches:smd_push" H 5850 7063 50  0001 C CNN
+F 3 "" H 5850 6900 50  0000 C CNN
+	1    5850 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 6900 6800 6900
+Wire Wire Line
+	5450 6900 5450 7100
+$Comp
+L HMIFeatherWing-rescue:+3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue #PWR0108
+U 1 1 5DEC54D8
+P 5000 2850
+F 0 "#PWR0108" H 5000 2700 50  0001 C CNN
+F 1 "+3V3" V 5015 2978 50  0000 L CNN
+F 2 "" H 5000 2850 50  0000 C CNN
+F 3 "" H 5000 2850 50  0000 C CNN
+	1    5000 2850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
