@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "ArduHMI Shield"
-Date "2019-08-23"
-Rev "1.2"
+Title "HMIFeatherWing"
+Date "2019-12-04"
+Rev "1.0"
 Comp "generationmake"
 Comment1 ""
 Comment2 ""
@@ -689,7 +689,7 @@ U 1 1 5DAD3188
 P 1900 7150
 F 0 "SW1" H 2450 8093 60  0000 C CNN
 F 1 "ALPS_SKRH" H 2450 7987 60  0000 C CNN
-F 2 "mechanical-switches:ALPS_SKRH" H 2450 7881 60  0000 C CNN
+F 2 "mechanical-switches:ALPS_SKRH" H 2450 7881 60  0001 C CNN
 F 3 "" H 2750 7200 60  0000 C CNN
 	1    1900 7150
 	1    0    0    -1  
