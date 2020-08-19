@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name ArduHMIShield-rescue)(type Legacy)(uri ${KIPRJMOD}/ArduHMIShield-rescue.lib)(options "")(descr ""))
-  (lib (name MKRHMIShield-rescue)(type Legacy)(uri ${KIPRJMOD}/MKRHMIShield-rescue.lib)(options "")(descr ""))
-)
