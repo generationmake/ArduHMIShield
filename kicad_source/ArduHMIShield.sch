@@ -1100,7 +1100,7 @@ F 3 "" H 6150 1800 60  0000 C CNN
 	1    6150 1800
 	1    0    0    -1  
 $EndComp
-Text Notes 9150 1300 0    60   ~ 0
+Text Notes 8800 1300 0    60   ~ 0
 Arduino Uno: SCK=13 MOSI=11\nArduino Leonardo: no spi\nArduino Mega: no spi\nArduino M0 pro: SCK=13 MOSI=11\nArduino Zero: SCK=13 MOSI=11\n\n
 $Comp
 L voltage-regulators:LT1117 U1
@@ -1818,7 +1818,7 @@ U 1 1 5F517DCB
 P 5700 6850
 F 0 "CN2" H 5700 7747 60  0000 C CNN
 F 1 "ARDUINO_MKR" H 5700 7641 60  0000 C CNN
-F 2 "MODULE_compute:ARDUINO_MKR" H 5600 7500 60  0001 C CNN
+F 2 "MODULE_compute:ARDUINO_MKR_HOLES" H 5600 7500 60  0001 C CNN
 F 3 "" H 5700 6550 60  0000 C CNN
 	1    5700 6850
 	1    0    0    -1  
@@ -1917,4 +1917,26 @@ NoConn ~ 5100 6800
 NoConn ~ 5100 6200
 NoConn ~ 5100 6300
 NoConn ~ 5100 6400
+$Comp
+L devices:Label L1
+U 1 1 5F4DC93F
+P 10700 650
+F 0 "L1" H 10928 703 60  0000 L CNN
+F 1 "Label" H 10928 597 60  0000 L CNN
+F 2 "labels:generationmake_logo" H 10928 544 60  0001 L CNN
+F 3 "" H 10700 650 60  0000 C CNN
+	1    10700 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:Label L2
+U 1 1 5F4DD031
+P 10700 1000
+F 0 "L2" H 10928 1053 60  0000 L CNN
+F 1 "Label" H 10928 947 60  0000 L CNN
+F 2 "labels:generationmake_logo" H 10928 894 60  0001 L CNN
+F 3 "" H 10700 1000 60  0000 C CNN
+	1    10700 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
