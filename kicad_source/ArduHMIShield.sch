@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ArduHMI Shield"
-Date "2020-08-30"
-Rev "dev_1.3"
+Date "2020-08-31"
+Rev "1.3"
 Comp "generationmake"
 Comment1 ""
 Comment2 ""
