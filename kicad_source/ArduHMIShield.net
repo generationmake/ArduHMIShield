@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/bernhard/projects/ArduHMIShield/kicad_source/ArduHMIShield.sch)
-    (date "So 30 Aug 2020 23:50:00 CEST")
+    (date "Mo 31 Aug 2020 00:29:42 CEST")
     (tool "Eeschema 5.1.6-c6e7f7d~87~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -148,7 +148,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BD4D7A8))
     (comp (ref U1)
-      (value LT1117)
+      (value AZ1117IH-3.3)
       (footprint SOT_TO:SOT-223)
       (libsource (lib voltage-regulators) (part LT1117) (description ""))
       (sheetpath (names /) (tstamps /))
@@ -244,7 +244,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BEF46DB))
     (comp (ref D1)
-      (value green)
+      (value 150060GS75000)
       (footprint LEDs:LED_0603)
       (libsource (lib devices) (part Led_Small) (description Led))
       (sheetpath (names /) (tstamps /))
