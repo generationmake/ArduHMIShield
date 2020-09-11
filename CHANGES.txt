@@ -1,5 +1,5 @@
 ArduHMI - Graphic HMI for Arduino
-see full project documentation at http://arduhmi.generationmake.de
+see full project documentation at http://arduhmi.generationmake.de or https://github.com/generationmake/ArduHMIShield
 
 changes
 
@@ -11,10 +11,12 @@ version 1.1 - 2019-06-24
 * changed level shifter to 74LHC245D because of better availability and easier soldering
 
 version 1.2 - 2019-08-23
-* removed GNG connection on pin 2 of SW5
+* removed GND connection on pin 2 of SW5
 * corrected silk screen of R4 and R5
 * added Arduino SPI header and R22 and R23
 
+version 1.3 - 2020-08-31
+* added connector for Arduino MKR
 
 
 
