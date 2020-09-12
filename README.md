@@ -15,6 +15,9 @@ ArduHMIShield with EA DOGM graphic display and joystick compatible to Arduino Un
 
 ![ArduHMIShield PCB bot](docs/images/ArduHMIShield_bot.png)
 
+### Order options
+
+The pcb is available at Aisler: https://aisler.net/p/FNAGFCPP
 
 ## License
 
