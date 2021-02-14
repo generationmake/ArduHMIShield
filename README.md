@@ -5,6 +5,12 @@ ArduHMIShield with EA DOGM graphic display and joystick compatible to Arduino Un
 
 ![ArduHMIShield rendering](docs/images/ArduHMIShield_rendering.png)
 
+### Holder
+
+The holder is constructed using FreeCAD. It is 3D-printable. The files are in the folder `production-data`
+
+![ArduHMIShield PCB holder](docs/images/ArduHMIShield_holder.png)
+
 ## PCB
 
 ### Top
